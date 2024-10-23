@@ -26,7 +26,7 @@ let picker;
 
 
 function preload() {
-  // img1 = loadImage("images/nice.png");
+  img1 = loadImage("November-removebg-preview.png");
 }
 function setup() {
   createCanvas(933, 790);
@@ -47,7 +47,7 @@ function draw() {
 
   //image uploads
   {
-    // image(img1, 467, 45, 360, 180);
+    image(img1, 467, 45, 360, 180);
   }
 
 
