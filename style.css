@@ -5,7 +5,12 @@ html, body {
   body {
     margin: 0;
     display: flex;
- 
+    
+    width: 200%;
+    height: 200%;
+    transform-origin: top left;
+    transform: scale(50%);
+    
     /* This centers our sketch horizontally. */
     justify-content: center;
  
