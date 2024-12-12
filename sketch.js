@@ -29,14 +29,7 @@ function preload() {
   img1 = loadImage("November-removebg-preview.png");
 }
 function setup() {
-  // Get the resized width and height based on CSS
-  let canvasWidth = document.body.clientWidth * 0.8;
-  let canvasHeight = document.body.clientHeight * 0.8;
-    
-  // Create a canvas based on the calculated size
-  createCanvas(canvasWidth, canvasHeight);
-
- // createCanvas(933, 790);
+  createCanvas(933, 790);
   rectMode(CORNER);
   textAlign(CENTER);
   imageMode(CENTER);
@@ -293,12 +286,4 @@ function draw() {
       info(title);
     }
   }
-}
-
-function windowResized() {
-  let canvasWidth = windowWidth * 0.8;
-  let canvasHeight = windowHeight * 0.8;
-  
-  // Resize the canvas to 80% of the new window size
-  resizeCanvas(canvasWidth, canvasHeight);
 }
