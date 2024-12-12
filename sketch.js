@@ -29,7 +29,14 @@ function preload() {
   img1 = loadImage("November-removebg-preview.png");
 }
 function setup() {
-  createCanvas(933, 790);
+  // Get the resized width and height based on CSS
+  let canvasWidth = document.body.clientWidth * 0.8;
+  let canvasHeight = document.body.clientHeight * 0.8;
+    
+  // Create a canvas based on the calculated size
+  createCanvas(canvasWidth, canvasHeight);
+
+ // createCanvas(933, 790);
   rectMode(CORNER);
   textAlign(CENTER);
   imageMode(CENTER);
