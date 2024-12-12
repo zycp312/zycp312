@@ -29,7 +29,7 @@ function preload() {
   img1 = loadImage("November-removebg-preview.png");
 }
 function setup() {
-  createCanvas(746.4, 632);
+  createCanvas(933, 790);
   rectMode(CORNER);
   textAlign(CENTER);
   imageMode(CENTER);
