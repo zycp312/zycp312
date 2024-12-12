@@ -294,3 +294,11 @@ function draw() {
     }
   }
 }
+
+function windowResized() {
+  let canvasWidth = windowWidth * 0.8;
+  let canvasHeight = windowHeight * 0.8;
+  
+  // Resize the canvas to 80% of the new window size
+  resizeCanvas(canvasWidth, canvasHeight);
+}
