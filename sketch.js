@@ -29,8 +29,7 @@ function preload() {
   img1 = loadImage("November-removebg-preview.png");
 }
 function setup() {
-  const wow = createCanvas(746, 632);
-  wow.canvas.style = "";
+  createCanvas(933, 790);
   rectMode(CORNER);
   textAlign(CENTER);
   imageMode(CENTER);

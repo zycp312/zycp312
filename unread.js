@@ -1,4 +1,3 @@
-
 class Unread {
   constructor(x, y) {
     this.x = x;
